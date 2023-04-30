@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/x-icon" href="../src/assets/favicon-16x16.png">
+  <title>Emmanuel Udoh's Portfolio Website</title>
+</head>
+<body>
+  <section id="navbar">
+    <nav>
+      <ul>
+        <li>
+          <h1>
+            <a href="https://eudoh940.github.io/EmmanuelTheDataEngr/">
+              <span id="logo" class="fa-solid fa-code" aria-hidden="true"></span>
+              <span>Emmanuel Udoh</span>
+            </a>
+          </h1>
+        </li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="https://eudoh940.github.io/EmmanuelTheDataEngr/">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/emmanuel-udoh-akpan/" target="_blank">
+            <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/eudoh940" target="_blank">
+            <span class="fa-brands fa-github" aria-hidden="true"></span>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li><a href="https://www.dropbox.com/s/y3d9vqthjf9au5w/Emmanuel%20Udoh%20Akpan%20ng%20%281%29.pdf?dl=0" class="button" target="_blank">Resume</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <section id="intro">
+    <p class="name">Hi, my name is <span>Emmanuel Udoh.</span></p>
+    <h2>A Data Scientist that develops websites and applications.</h2>
+    <p>I'm a Software developer specializing in HTML, CSS, and JavaScript and gradually working my way into being a Data Scientist.</p>
+    <p>Currently, I'm making a career switch from construction to web development.</p>
+  </section>
+
+  <div class="gradient"></div>
+  
+  <div class="section-dkblue">
+    <section id="projects">
+      <h2>Projects I'm proud of</h2>
+      <article>
+        <div class="text">
+          <h3>Currency Converter</h3>
+          <p class="blackbox">
+            Currency converter is a simple application that is used to convert one currency to another. You can check out more about the converter on <a href="https://github.com/Eudoh940/converter" target="_blank">Emmanuel Github.</a>
+            The objective of this converter was to be able to practice PHP.
+            Check out the code on <a href="https://github.com/Eudoh940/converter" target="_blank">Github.</a>
+          </p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+        <img src="src/assets/currencyConverter.PNG" alt="Screenshot of the currency converter." />
+      </article>
+      <article class="reverse">
+        <div class="text">
+          <h3>Data Cleaning With SQL</h3>
+          <p class="blackbox">
+            Data Cleaning with SQL. This is a simple project done with SQL. 
+            The aim of this project was to get myself comfortable with SQL.
+            check out the code on <a href="https://github.com/Eudoh940/DataCleaningRepo" target="_blank">Github.</a>
+          </p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <img src="src/assets/sqlData.PNG" alt="Data cleaning with SQL." />
+      </article>
+      <article>
+        <div class="text">
+          <h3>Quiz App</h3>
+          <p class="blackbox">
+            Simple quiz app. Users can take a quiz.
+            The aim of this project is to learn JavaScript. 
+            Check out the code on <a href="https://github.com/Eudoh940/nQuizApp" target="_blank">Github.</a>
+          </p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+          <img src="src/assets/quizApp.PNG" alt="Screenshot of the Quiz app" />
+      </article>
+    </section>
+  </div>
+
+  <div class="gradient"></div>
+
+  <div class="section-plum">
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <!-- <p>
+        I'm currently looking for internships, apprenticeships, or any other entry-level software engineer position.
+      </p> -->
+      <form action="https://formsubmit.co/eudoh940@gmail.com" method="post">
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" required/>
+          </li>
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_mail" required/>
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message" required></textarea>
+          </li>
+          <li class="submit-button-wrapper">
+            <button class="submit-button"type="submit">Send your message</button>
+          </li>
+        </ul>
+      </form>
+    </section>
+  </div>
+  
+  <div class="gradient"></div>
+
+  <section id="footer">
+    <footer>
+      <h2>Emmanuel Udoh &middot; Data Analytic Engineer | Data Scientist</h2>
+      <ul>
+        <li>
+          <a href="linkedin.com/in/emmanuel-udoh-akpan" target="_blank">
+            <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/eudoh940" target="_blank">
+            <span class="fa-brands fa-github" aria-hidden="true"></span>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:eudoh940@gmail.com" target="_blank">
+            <span class="fa-solid fa-envelope" aria-hidden="true"></span>
+            <span class="sr-only">Email</span>
+          </a>
+        </li>
+      </ul>
+      <p><small>&copy; 2023 Emmanuel Udoh. All rights reserved.</small></p>
+    </footer>
+  </section>
+</body>
+</html>
